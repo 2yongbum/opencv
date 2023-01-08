@@ -30,7 +30,7 @@ Scaling
 -------
 
 Scaling은 이미지의 사이즈가 변하는 것 입니다. OpenCV에서는 ``cv2.resize()`` 함수를 사용하여 적용할 수 있습니다.
-사이즈가 변하면 pixel사이의 값을 결정을 해야 하는데, 이때 사용하는 것을 보간법(Interpolation method)입니다.
+사이즈가 변하면 pixel사이의 값을 결정을 해야 하는데, 이때 사용하는 것을 `보간법(Interpolation method) <https://docs.opencv.org/3.4/da/d54/group__imgproc__transform.html#ga5bb5a1fea74ea38e1a5445ca803ff121>`_입니다.
 많이 사용되는 보간법은 사이즈를 줄일 때는 ``cv2.INTER_AREA`` , 사이즈를 크게할 때는 ``cv2.INTER_CUBIC`` , ``cv2.INTER_LINEAR``
 을 사용합니다.
 
