@@ -61,7 +61,7 @@ Alpha channel을 포함하는 이미지(보통 png 파일)를 ``cv2.IMREAD_UNCHA
 
 ``cv2.imshow()`` 함수는 이미지를 사이즈에 맞게 보여줍니다.
 
->>> c22.imshow('image', img)
+>>> cv2.imshow('image', img)
 >>> cv2.waitKey(0)
 >>> cv2.destroyAllWindows()
 
