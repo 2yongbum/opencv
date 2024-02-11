@@ -48,7 +48,7 @@ Return되는 값은 Gray 이미지로, 원본의 픽셀이 템플릿 이미지�
         method = eval(meth)
 
         res = cv2.matchTemplate(img,template,method)
-        min_val,max_val,min_loc, max_loc = cv3.minMaxLoc(res)
+        min_val,max_val,min_loc, max_loc = cv2.minMaxLoc(res)
 
         if method in [cv2.TM_SQDIFF, cv2.TM_SQDIFF_NORMED]:
             top_left = min_loc
