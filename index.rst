@@ -8,6 +8,10 @@ OpenCV-Python Study documentation!
 
 이 문서는 `OpenCV-Python Tutorial <http://opencv-python-tutroals.readthedocs.io/en/latest/>`_ 을 바탕으로 작성이 되었습니다.
 
+Install:
+
+
+pip install opencv-python
 
 Contents:
 
